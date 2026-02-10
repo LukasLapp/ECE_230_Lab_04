@@ -16,4 +16,4 @@ Product of Sums refers to using the Max terms(0’s) grouping them together to f
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
 
-We are able to check that the signals match using Xor because of how the operation behaves logically. An Xor gate requires the inputs to be different to result in an output of 1. 
+We are able to check that the signals match using Xor because of how the operation behaves logically. In the code, it checks if the inputs are the same which would result in a 0. This would push the effect of a pass, and would need the inputs to be 1 and 0.
